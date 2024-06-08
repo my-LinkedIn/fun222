@@ -45,4 +45,5 @@ https://www.linkedin.com/feed/update/urn:li:activity:7205010763072036864?utm_sou
 
 ## Reference
 
-[Racket Language](https://racket-lang.org/)
+[Wikipedia entry](https://en.wikipedia.org/wiki/Racket_(programming_language))
+[Racket Language website](https://racket-lang.org/)
