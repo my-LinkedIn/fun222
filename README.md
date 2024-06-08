@@ -32,8 +32,7 @@ https://www.linkedin.com/feed/update/urn:li:activity:7205010763072036864?utm_sou
 (if (null? xs)
     (displayln "No numbers satisfy the condition.")
     (begin
-      (displayln (list (length xs)
-                       (car xs)
+      (displayln (list (cadr (reverse xs))
                        (car (reverse xs))))
       (void)))
 ```
