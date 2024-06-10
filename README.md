@@ -2,6 +2,8 @@
 
 ## D language
 
+My usual language of choice...
+
 ### Source code
 
 ```d
@@ -46,6 +48,8 @@ Last Element of the Sequence: 9876351240
 ```
 
 ## Racket language [Bonus]
+
+Trying other paradigms is tempting... Go for it!
 
 ### Source code
 
