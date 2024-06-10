@@ -47,3 +47,4 @@ https://www.linkedin.com/feed/update/urn:li:activity:7205010763072036864?utm_sou
 
   - [Racket Wikipedia entry](https://en.wikipedia.org/wiki/Racket_(programming_language))
   - [Racket Language website](https://racket-lang.org/)
+  - [11460 terms pandigital numbers satisfying the property](https://oeis.org/A187565/b187565.txt)
