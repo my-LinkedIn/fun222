@@ -1,4 +1,4 @@
-# Solution to Fun Math #222
+# Proof/Solution to Fun Math #222
 
 https://www.linkedin.com/feed/update/urn:li:activity:7205010763072036864?utm_source=share&utm_medium=member_desktop
 
