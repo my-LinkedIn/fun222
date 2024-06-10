@@ -47,7 +47,7 @@ Second-to-last Element of the Sequence: 9876134520
 Last Element of the Sequence: 9876351240
 ```
 
-## Bonus - Racket language
+## Racket language [Bonus]
 
 ### Source code
 
