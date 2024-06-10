@@ -30,12 +30,12 @@ bool isPandigitalAndDivisibleBy1Through9(long number) {
 }
 
 void main() {
-    auto seq = iota(1_000_001_520, 10_000_000_000, 2_520)
-                .filter!isPandigitalAndDivisibleBy1Through9
-                .array;
+    auto seq10digits = iota(1_000_001_520, 10_000_000_000, 2_520)
+                            .filter!isPandigitalAndDivisibleBy1Through9
+                            .array;
 
-    writeln("Second-to-last Element of the Sequence: ", seq[$ - 2]);
-    writeln("Last Element of the Sequence: ", seq[$-1]);
+    writeln("Second-to-last Element of the Sequence: ", seq10digits[$ - 2]);
+    writeln("Last Element of the Sequence: ", seq10digits[$-1]);
 }
 
 ```
