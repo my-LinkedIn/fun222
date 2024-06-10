@@ -2,8 +2,52 @@
 
 https://www.linkedin.com/feed/update/urn:li:activity:7205010763072036864?utm_source=share&utm_medium=member_desktop
 
+## D language
 
-## Bonus - Racket
+### Source code
+
+```d
+import std.stdio;
+import std.string;
+import std.conv;
+import std.range;
+import std.algorithm;
+
+/*
+ 1) LCM of the digits 1 through 9 is 2_520
+ 2) Lower bound (smallest ten-digit multiple of 2_520) is 1_000_001_520
+ 3) Generate all the ten-digit multiples of 2520
+ 4) Filter out number Pandigital and Divisible by 1 through 9
+*/
+
+bool isPandigitalAndDivisibleBy1Through9(long number) {
+    foreach (i; 1 .. 10) {
+        if (number % i != 0) {
+            return false;
+        }
+    }
+    return text(number.text.array.sort) == "0123456789";
+}
+
+void main() {
+    auto seq = iota(1_000_001_520, 10_000_000_000, 2_520)
+                .filter!isPandigitalAndDivisibleBy1Through9
+                .array;
+
+    writeln("Second-to-last Element of the Sequence: ", seq[$ - 2]);
+    writeln("Last Element of the Sequence: ", seq[$-1]);
+}
+
+```
+
+### Output
+
+```text
+Second-to-last Element of the Sequence: 9876134520
+Last Element of the Sequence: 9876351240
+```
+
+## Bonus - Racket language
 
 ### Source code
 
