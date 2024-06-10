@@ -49,7 +49,7 @@ Last Element of the Sequence: 9876351240
 
 ## Racket language [Bonus]
 
-Trying other paradigms is tempting... Go for it!
+Trying other paradigms is tempting... a Taste of [Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language)) feeling, Go for it! 🏃‍♂️🏃‍♂️🏃‍♂️
 
 ### Source code
 
